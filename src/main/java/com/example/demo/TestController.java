@@ -8,6 +8,8 @@ public class TestController {
 
     @GetMapping("/hello")
     public String sayHello(){
+
+        System.out.println("after stashing");
          return "Hello Hi";
     }
 }
