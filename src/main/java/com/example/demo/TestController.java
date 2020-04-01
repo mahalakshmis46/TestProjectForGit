@@ -9,7 +9,7 @@ public class TestController {
     @GetMapping("/hello")
     public String sayHello(){
 
-        System.out.println("after stashing test");
+        System.out.println("after stashingg");
          return "Hello Hi";
     }
 }
